@@ -129,21 +129,6 @@ docker run -d \
   docketbird-mcp:latest
 ```
 
-## Agent Prototype
-
-A prototype agent in `agents/db_agent_prototype.py` connects to the deployed MCP server using pydantic-ai and OpenAI GPT-4.1.
-
-```bash
-export OPENAI_API_KEY=your_key
-python agents/db_agent_prototype.py
-```
-
-Example queries:
-
-- "Please retrieve details for txnd-3:2007-cv-01697"
-- "What documents are available in this case?"
-- "Download all documents for this case"
-
 ## Reference Data
 
 - `courts.json` - Court codes and names
