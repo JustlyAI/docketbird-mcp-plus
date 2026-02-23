@@ -36,7 +36,7 @@ source .venv/bin/activate
 3. Install dependencies:
 
 ```bash
-uv pip install .
+uv pip install -r requirements.txt
 ```
 
 ## Running the Server
@@ -52,7 +52,7 @@ python docketbird_mcp.py --transport http
 
 ## Connecting to the Deployed Server
 
-See [installation.pdf](installation.pdf) for the full walkthrough with screenshots.
+See [DocketBird_MCP_Installation_Guide.pdf](DocketBird_MCP_Installation_Guide.pdf) for the full walkthrough with screenshots.
 
 ### Quick version
 
